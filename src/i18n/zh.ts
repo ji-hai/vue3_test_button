@@ -4,6 +4,10 @@ const zh = {
       helpWord: "帮助文档"
   },
 
+  button: {
+      my: '我的'
+},
+
   date: {
       mon: "周一",
       tue: "周二",

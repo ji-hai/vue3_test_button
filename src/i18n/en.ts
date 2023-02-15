@@ -4,6 +4,10 @@ const en = {
       helpWord: "Help Documentation"
   },
 
+  button: {
+      my: 'My'
+  },
+
   date: {
       mon: "Monday",
       tue: "Tuesday",

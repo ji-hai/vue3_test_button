@@ -4,7 +4,7 @@ import { ElConfigProvider } from 'element-plus'
 import zh from 'element-plus/dist/locale/zh-cn.mjs'
 import en from 'element-plus/dist/locale/en.mjs'
 
-import { appStore } from '@/store'
+import { appStore } from './store/modules'
 
 
 const size = ref('small')

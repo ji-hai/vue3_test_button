@@ -1,4 +1,6 @@
 import { defineStore } from 'pinia'
+// @ts-ignore
+import piniaPersistConfig from '../piniaPersits'
 
 const appStore = defineStore({
     id: 'appStore',
@@ -11,7 +13,8 @@ const appStore = defineStore({
     },
     actions: {
 
-    }
+    },
+    persist: piniaPersistConfig('appStore')
 })
 
 export default appStore

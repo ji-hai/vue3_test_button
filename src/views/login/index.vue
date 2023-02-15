@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref } from "vue"
-import { appStore } from '../../store'
+import { appStore } from '../../store/modules'
 
 import { useI18n  } from 'vue-i18n'
 
@@ -37,7 +37,7 @@ const Onswitch = (val)=>{
   <div>
     {{ $t(`common.language`) }}
     {{ locale }}
-    <el-button> 我的</el-button>
+    <el-button> {{ $t(`button.my`) }}</el-button>
     <el-switch v-model="value1" @change="Onswitch" />
     <el-switch v-model="value2" @change="toggleDark" />
   </div>

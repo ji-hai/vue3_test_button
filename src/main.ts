@@ -3,8 +3,7 @@ import App from './App.vue'
 import 'element-plus/theme-chalk/dark/css-vars.css'
 
 // 状态管理 pinia
-import {createPinia} from 'pinia'
-const pinia = createPinia()
+import pinia from "./store";
 
 // 路由
 import router from './router'
