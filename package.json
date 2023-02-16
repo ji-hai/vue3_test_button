@@ -1,18 +1,23 @@
 {
-  "name": "vue3",
-  "private": true,
+  "name": "vue3_test_button",
+  "private": false,
   "version": "0.0.0",
   "type": "module",
+  "main": "lib/vue3_test_button.umd.cjs",
+  "module": "lib/vue3_test_button.umd.cjs",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs"
   },
   "dependencies": {
     "element-plus": "^2.2.19",
     "pinia": "^2.0.23",
     "pinia-plugin-persistedstate": "^3.0.2",
     "sass": "^1.56.0",
+    "vitepress": "^1.0.0-alpha.46",
     "vue": "^3.2.41",
     "vue-i18n": "^9.2.2",
     "vue-router": "^4.1.6"

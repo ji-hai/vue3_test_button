@@ -1,6 +1,7 @@
 import { createI18n } from 'vue-i18n' //引入vue-i18n组件
 import messages from './index'
 const language = (
+    // @ts-ignore
   (navigator.language ? navigator.language : navigator.userLanguage) || "ch"
 ).toLowerCase()
 const i18n = createI18n({

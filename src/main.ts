@@ -11,8 +11,12 @@ import router from './router'
 // 国际化 i18n
 import i18n from './i18n/i18n'
 
+// @ts-ignore
+import baseComponentsInstall from '@/components/baseComponents/install'
+
 createApp(App)
-.use(router)
-.use(pinia)
-.use(i18n)
-.mount('#app')
+    .use(router)
+    .use(pinia)
+    .use(i18n)
+    .use(baseComponentsInstall)
+    .mount('#app')

@@ -40,6 +40,7 @@ const Onswitch = (val)=>{
     <el-button> {{ $t(`button.my`) }}</el-button>
     <el-switch v-model="value1" @change="Onswitch" />
     <el-switch v-model="value2" @change="toggleDark" />
+    <MyButton></MyButton>
   </div>
 </template>
 <style scoped lang="scss">
